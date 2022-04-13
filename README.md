@@ -72,5 +72,23 @@ await productsApi.getProducts()
 
 Everything works the same, except that its ES6 syntax.
 
+
+## Building from scratch
+So I have what should be every command to generate this Api from scratch. If you do...
+
+```
+npm run build
+```
+
+It will pull down the latest api spec, generate bindings, and then put them in the dist folder for javascript and typescript users alike. 
+
+If you do...
+
+```
+npm run dist
+```
+
+It'll do everything the build does, plus push it to npm.
+
 ## For the future...
 You may be shocked by the devDependencies. These are provided (free of charge), for the motivator who is interested in creating unit tests and BDD tests to ensure that the api works as expected... (or proving samcart changed everything up and wrecked everyone). I like these tools, I use them. Maybe you might too.
