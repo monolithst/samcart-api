@@ -76,6 +76,14 @@ Everything works the same, except that its ES6 syntax.
 ## Building from scratch
 So I have what should be every command to generate this Api from scratch. If you do...
 
+If you haven't installed openapi-generator-cli before...
+
+```
+npm install @openapitools/openapi-generator-cli -g
+```
+
+Then you can run.
+
 ```
 npm run build
 ```
