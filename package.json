@@ -1,6 +1,6 @@
 {
   "name": "samcart-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A typescript/javascript api for connecting to SamCart.",
   "main": "index.js",
   "types": "index.d.ts",
